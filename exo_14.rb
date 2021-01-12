@@ -10,11 +10,15 @@ while nbr != 50
     i +=1
 
     if i %2 == 0
-        table[i] = "jean.dupont.#{nbr}@email.fr"
-        puts table[i]
+        if i < 10   
+            table[i] = "jean.dupont.0#{i}@email.fr"
+            puts table[i]
+        else
+            table[i] = "jean.dupont.#{i}@email.fr"
+            puts table[i]
+        end
     end
 end
-
 
 # init tab
 # Tant que x n'est pas = 50 x+1
