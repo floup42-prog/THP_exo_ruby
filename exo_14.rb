@@ -14,3 +14,10 @@ while nbr != 50
         puts table[i]
     end
 end
+
+
+# init tab
+# Tant que x n'est pas = 50 x+1
+# if i est paire 
+    # tab = "bllabla #{x}blablabla"
+    # afiicher la ligne tu tab

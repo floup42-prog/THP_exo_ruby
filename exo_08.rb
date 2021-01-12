@@ -10,4 +10,4 @@ while nbr != 0
     nbr -= 1
   end
 end
-puts "go #{nbr}"
+puts "issou #{nbr}"
