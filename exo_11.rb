@@ -2,14 +2,14 @@ puts "Bonjour, quelle est ton année de naissance mon petit?"
 print ">"
 birth_year = gets.to_i
 compt = 0
-age= 2021-birth_year
+year = Time.now.year-birth_year
 
-while birth_year != 2021
-    print ">"
-puts "hum..., donc t'avais #{age} il y a, #{compt} année intéréssant"
-age -= 1
+while birth_year != Time.now.year
+print ">"
+puts "hum..., donc il y a  #{year} année, tu avais #{compt} ans intéréssant"
+year -= 1
 birth_year +=1
 compt += 1
 end
 print ">"
-puts "hum..., donc t'avais #{age} il y a, #{compt} année intéréssant"
+puts "hum..., donc il y a  #{year} année, tu avais #{compt} ans intéréssant"
